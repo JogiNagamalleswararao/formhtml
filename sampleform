@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Index</title>
+
+</head>
+
+<body>
+
+    <div><form>
+
+    <fieldset>
+
+    <legend>information:</legend>
+
+        <lable for="fname">First name:</lable><br/>
+
+        <input type="text" name="fname" autofocus required></input><br/>
+
+        <lable>last name:</lable><br/>
+
+        <input type="text" name="lname"></input><br/>
+
+        <lable>gender:</lable>
+
+        <input type="radio" name="gender" >male</input>
+
+        <input type="radio" name="gender">female</input><br/>
+
+        <lable>Highest qualification:</lable>
+
+        <select>
+
+        <option>SSC</option>
+
+        <option>Inter</option>
+
+        <option>B.tech</option>
+
+        <option>M.tech</option>
+
+        <option>PhD</option>
+
+        </select><br/>
+
+        <lable>Email:</lable>
+
+        <input type="email" placeholder="Enter valid email" required></input><br/>
+
+        <lable>Phone:</lable>
+
+        <input type="number" placeholder="i.e:9234567890" pattern="[0-9]{10}" required></input><br/>
+
+        <lable>Address:</lable><br/><br/>
+
+        <textarea rows="4" cols="20"></textarea><br/>
+
+        <input type="reset" value="Reset">
+
+  <input type="submit" value="Submit">
+
+ 
+
+        </fieldset></form>
+
+    </div>
+
+</body>
+
+</html>
